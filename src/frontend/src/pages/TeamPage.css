@@ -1,0 +1,47 @@
+.TeamPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.TeamPage .team-name-section {
+    grid-column: span 3;
+}
+
+.TeamPage .team-name-section .team-name{
+   font-size: 10rem;
+   margin-bottom: 20px;
+   margin-left: 100px;
+}
+
+.TeamPage .win-loss-section{
+    justify-self: center;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.TeamPage .match-detail-section {
+    grid-column: span 4;
+} 
+
+.TeamPage .more-link {
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 300px;
+} 
+
+.TeamPage .match-detail-section .latest-matches-heading{
+    padding: 20px;
+}
+
+.TeamPage .team-name-section .home-link{
+    justify-self: left;
+    padding: 10px;
+    margin-bottom: 70px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
